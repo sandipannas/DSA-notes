@@ -1,1 +1,23 @@
+//library
+#include<unordered_set>
+
+//declare
+unordered_set<int> num;
+
+//insert value
+num.insert(element);
+
+//check if the element present
+num.count(element);
+
+//delete the element 
+num.erase(element);
+
+//size
+num.size();
+
+//clear the set 
+num.clear();
+
+for each loop works
 
