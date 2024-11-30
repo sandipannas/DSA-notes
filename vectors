@@ -1,0 +1,33 @@
+//library
+#include <vector>
+
+//declare
+vector<int> num;
+
+//access element
+int x=num[0]; or num.at(0);     { .at() more prefered }
+num.front();
+num.back();
+
+//add element
+num.insert(v.begin() + index, element);
+num.push_back(input);
+
+//remove element
+num.erase(vec.begin() + index);
+num.pop_back(input);
+
+//sort
+sort(num.begin(),num.end());
+
+//size
+num.size();
+
+//is empty
+num.empty();
+
+for each loop works
+
+//douts
+difference between stable_sort and sort
+
