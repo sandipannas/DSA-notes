@@ -1,1 +1,17 @@
+#include<unordered_map>
+
+unordered_map<int,int> num;
+
+num[key]=value;
+
+num.insert(make_pair(key,value));
+
+num.at(key)    //it returns the value of the key
+
+if(num.count(4))
+{
+    cout<<num.at(4);
+}
+
+num.erase(key);
 
