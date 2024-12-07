@@ -7,6 +7,7 @@ vector.size() is not equal to vector.capacity()
 
 //declare
 vector<int> num;
+vector<int> num(:
 
 //access element
 int x=num[0]; or num.at(0);     { .at() more prefered }
