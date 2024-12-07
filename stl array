@@ -1,0 +1,12 @@
+#include<array>
+
+array<int,4> a;
+
+a.size();
+
+a[i] or a.at(i)
+
+a.empty();
+
+a.front();
+a.back();
