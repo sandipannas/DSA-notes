@@ -1,0 +1,12 @@
+#include<list>
+
+list<int> ll;
+
+ll.push_front(element);
+ll.pop_front(element);
+
+ll.push_back(element);
+ll.pop_back(element);
+
+ll.empty();
+
