@@ -1,3 +1,7 @@
+vetor is created using normal array if the array runs out of space the it creats 
+a array of double size of that previous array and copy all of its elements
+vector.size() is not equal to vector.capacity()
+
 //library
 #include <vector>
 
